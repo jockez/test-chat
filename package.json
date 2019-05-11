@@ -1,0 +1,15 @@
+{
+  "name": "test-chat",
+  "version": "1.0.0",
+  "description": "Simple text chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jockez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}

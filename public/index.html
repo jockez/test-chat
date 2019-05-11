@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Hest er best fon >:</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="/socket.io/socket.io.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <div id="chat-container">
+                <div id="chat">
+                </div>
+                <div class="text-container">
+                    <textarea id="message" rows="2"></textarea>
+                    <button id="btn-send" class="">Send</button>
+                </div>
+
+            </div>
+            <div id="online-list-wrapper">
+                <div class="text-container m-tb">
+                    <input id="name" type="text" placeholder="Enter name">
+                    <button id="btn-update-name">Update</button>
+                </div>
+                <hr>
+                <div>
+                    <h4>Online users</h4>
+                    <div id="online-list">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="/js/client.js"></script>
+    </body>
+
+</html>
